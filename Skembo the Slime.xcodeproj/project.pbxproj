@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5250C0B1C0C69CB00D4E58F /* OptionsDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5250C0A1C0C69CB00D4E58F /* OptionsDialog.swift */; };
+		D557A25E1C1A294500B7535B /* ParallaxBackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557A25D1C1A294500B7535B /* ParallaxBackgroundNode.swift */; };
+		D560180B1C382C10001ACA20 /* MKOutlinedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D560180A1C382C10001ACA20 /* MKOutlinedLabelNode.swift */; };
+		D56018121C3B2BDA001ACA20 /* jump_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D56018101C3B2BDA001ACA20 /* jump_sound.wav */; };
+		D56018131C3B2BDA001ACA20 /* land_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D56018111C3B2BDA001ACA20 /* land_sound.wav */; };
+		D56018171C3BFC2B001ACA20 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56018161C3BFC2A001ACA20 /* UserDefaultsHelper.swift */; };
+		D56018191C3C0E3D001ACA20 /* LevelSelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56018181C3C0E3D001ACA20 /* LevelSelectScene.swift */; };
+		D562A7DD1C09E93500F6B2BA /* CollisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562A7DC1C09E93500F6B2BA /* CollisionHelper.swift */; };
+		D562A7E01C09ED5400F6B2BA /* SlimeSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562A7DF1C09ED5400F6B2BA /* SlimeSpriteNode.swift */; };
+		D569E15B1BEAC06200455FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E15A1BEAC06200455FB2 /* AppDelegate.swift */; };
+		D569E15D1BEAC06200455FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E15C1BEAC06200455FB2 /* ViewController.swift */; };
+		D569E1601BEAC06200455FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D569E15E1BEAC06200455FB2 /* Main.storyboard */; };
+		D569E1621BEAC06300455FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D569E1611BEAC06300455FB2 /* Assets.xcassets */; };
+		D569E1651BEAC06300455FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D569E1631BEAC06300455FB2 /* LaunchScreen.storyboard */; };
+		D569E1701BEAC06300455FB2 /* Skembo_the_SlimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E16F1BEAC06300455FB2 /* Skembo_the_SlimeTests.swift */; };
+		D569E17B1BEAC06300455FB2 /* Skembo_the_SlimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E17A1BEAC06300455FB2 /* Skembo_the_SlimeUITests.swift */; };
+		D569E1891BEAC1E700455FB2 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E1881BEAC1E700455FB2 /* StartScene.swift */; };
+		D569E18B1BEAC5F900455FB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E18A1BEAC5F900455FB2 /* GameScene.swift */; };
+		D569E18D1BEBE8FE00455FB2 /* WorldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569E18C1BEBE8FE00455FB2 /* WorldNode.swift */; };
+		D57E2BEF1C3EF55B003A25EF /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D57E2BED1C3EF55B003A25EF /* game_music.mp3 */; };
+		D57E2BF01C3EF55B003A25EF /* menu_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D57E2BEE1C3EF55B003A25EF /* menu_music.mp3 */; };
+		D57E2BF41C3F0307003A25EF /* MySpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E2BF31C3F0307003A25EF /* MySpriteView.swift */; };
+		D57E2BF61C3F0C46003A25EF /* AboutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E2BF51C3F0C46003A25EF /* AboutScene.swift */; };
+		D57E2BF81C3F3508003A25EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57E2BF71C3F3508003A25EF /* Images.xcassets */; };
+		D5AF861C1C0AF84D0055709F /* GameOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF861B1C0AF84D0055709F /* GameOverlay.swift */; };
+		D5E9411C1C034D0A00340C21 /* ObstacleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9411B1C034D0A00340C21 /* ObstacleFactory.swift */; };
+		D5FBDFBE1C0BAB7A00BE9C9B /* LevelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FBDFBD1C0BAB7A00BE9C9B /* LevelNode.swift */; };
+		D5FBDFC01C0BABB300BE9C9B /* LevelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FBDFBF1C0BABB300BE9C9B /* LevelFactory.swift */; };
+		D5FBDFC21C0BC05800BE9C9B /* VectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FBDFC11C0BC05800BE9C9B /* VectorHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D569E16C1BEAC06300455FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D569E14F1BEAC06200455FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D569E1561BEAC06200455FB2;
+			remoteInfo = "Skembo the Slime";
+		};
+		D569E1771BEAC06300455FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D569E14F1BEAC06200455FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D569E1561BEAC06200455FB2;
+			remoteInfo = "Skembo the Slime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5250C0A1C0C69CB00D4E58F /* OptionsDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsDialog.swift; sourceTree = "<group>"; };
+		D557A25D1C1A294500B7535B /* ParallaxBackgroundNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxBackgroundNode.swift; sourceTree = "<group>"; };
+		D560180A1C382C10001ACA20 /* MKOutlinedLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOutlinedLabelNode.swift; sourceTree = "<group>"; };
+		D56018101C3B2BDA001ACA20 /* jump_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump_sound.wav; sourceTree = "<group>"; };
+		D56018111C3B2BDA001ACA20 /* land_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = land_sound.wav; sourceTree = "<group>"; };
+		D56018161C3BFC2A001ACA20 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		D56018181C3C0E3D001ACA20 /* LevelSelectScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelectScene.swift; sourceTree = "<group>"; };
+		D562A7DC1C09E93500F6B2BA /* CollisionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionHelper.swift; sourceTree = "<group>"; };
+		D562A7DF1C09ED5400F6B2BA /* SlimeSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlimeSpriteNode.swift; sourceTree = "<group>"; };
+		D569E1571BEAC06200455FB2 /* Skembo the Slime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skembo the Slime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D569E15A1BEAC06200455FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D569E15C1BEAC06200455FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D569E15F1BEAC06200455FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D569E1611BEAC06300455FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D569E1641BEAC06300455FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D569E1661BEAC06300455FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D569E16B1BEAC06300455FB2 /* Skembo the SlimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skembo the SlimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D569E16F1BEAC06300455FB2 /* Skembo_the_SlimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skembo_the_SlimeTests.swift; sourceTree = "<group>"; };
+		D569E1711BEAC06300455FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D569E1761BEAC06300455FB2 /* Skembo the SlimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skembo the SlimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D569E17A1BEAC06300455FB2 /* Skembo_the_SlimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skembo_the_SlimeUITests.swift; sourceTree = "<group>"; };
+		D569E17C1BEAC06300455FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D569E1881BEAC1E700455FB2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		D569E18A1BEAC5F900455FB2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D569E18C1BEBE8FE00455FB2 /* WorldNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldNode.swift; sourceTree = "<group>"; };
+		D57E2BED1C3EF55B003A25EF /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = game_music.mp3; path = Assets.xcassets/game_music.mp3; sourceTree = "<group>"; };
+		D57E2BEE1C3EF55B003A25EF /* menu_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = menu_music.mp3; path = Assets.xcassets/menu_music.mp3; sourceTree = "<group>"; };
+		D57E2BF31C3F0307003A25EF /* MySpriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySpriteView.swift; sourceTree = "<group>"; };
+		D57E2BF51C3F0C46003A25EF /* AboutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutScene.swift; sourceTree = "<group>"; };
+		D57E2BF71C3F3508003A25EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5AF861B1C0AF84D0055709F /* GameOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverlay.swift; sourceTree = "<group>"; };
+		D5E9411B1C034D0A00340C21 /* ObstacleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObstacleFactory.swift; sourceTree = "<group>"; };
+		D5FBDFBD1C0BAB7A00BE9C9B /* LevelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelNode.swift; sourceTree = "<group>"; };
+		D5FBDFBF1C0BABB300BE9C9B /* LevelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFactory.swift; sourceTree = "<group>"; };
+		D5FBDFC11C0BC05800BE9C9B /* VectorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D569E1541BEAC06200455FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1681BEAC06300455FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1731BEAC06300455FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D560180D1C382F8B001ACA20 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				D569E18A1BEAC5F900455FB2 /* GameScene.swift */,
+				D569E18C1BEBE8FE00455FB2 /* WorldNode.swift */,
+				D562A7DF1C09ED5400F6B2BA /* SlimeSpriteNode.swift */,
+				D5AF861B1C0AF84D0055709F /* GameOverlay.swift */,
+				D557A25D1C1A294500B7535B /* ParallaxBackgroundNode.swift */,
+			);
+			name = game;
+			sourceTree = "<group>";
+		};
+		D560180E1C382FF1001ACA20 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D5250C0A1C0C69CB00D4E58F /* OptionsDialog.swift */,
+				D569E1881BEAC1E700455FB2 /* StartScene.swift */,
+				D56018181C3C0E3D001ACA20 /* LevelSelectScene.swift */,
+				D57E2BF31C3F0307003A25EF /* MySpriteView.swift */,
+				D57E2BF51C3F0C46003A25EF /* AboutScene.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		D560180F1C383017001ACA20 /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				D5FBDFBF1C0BABB300BE9C9B /* LevelFactory.swift */,
+				D5FBDFBD1C0BAB7A00BE9C9B /* LevelNode.swift */,
+				D5E9411B1C034D0A00340C21 /* ObstacleFactory.swift */,
+			);
+			name = levels;
+			sourceTree = "<group>";
+		};
+		D562A7DE1C09EC9A00F6B2BA /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D560180A1C382C10001ACA20 /* MKOutlinedLabelNode.swift */,
+				D562A7DC1C09E93500F6B2BA /* CollisionHelper.swift */,
+				D5FBDFC11C0BC05800BE9C9B /* VectorHelper.swift */,
+				D56018161C3BFC2A001ACA20 /* UserDefaultsHelper.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		D569E14E1BEAC06200455FB2 = {
+			isa = PBXGroup;
+			children = (
+				D569E1591BEAC06200455FB2 /* Skembo the Slime */,
+				D569E16E1BEAC06300455FB2 /* Skembo the SlimeTests */,
+				D569E1791BEAC06300455FB2 /* Skembo the SlimeUITests */,
+				D569E1581BEAC06200455FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D569E1581BEAC06200455FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D569E1571BEAC06200455FB2 /* Skembo the Slime.app */,
+				D569E16B1BEAC06300455FB2 /* Skembo the SlimeTests.xctest */,
+				D569E1761BEAC06300455FB2 /* Skembo the SlimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D569E1591BEAC06200455FB2 /* Skembo the Slime */ = {
+			isa = PBXGroup;
+			children = (
+				D56018101C3B2BDA001ACA20 /* jump_sound.wav */,
+				D56018111C3B2BDA001ACA20 /* land_sound.wav */,
+				D57E2BED1C3EF55B003A25EF /* game_music.mp3 */,
+				D57E2BEE1C3EF55B003A25EF /* menu_music.mp3 */,
+				D560180F1C383017001ACA20 /* levels */,
+				D560180E1C382FF1001ACA20 /* ui */,
+				D560180D1C382F8B001ACA20 /* game */,
+				D562A7DE1C09EC9A00F6B2BA /* util */,
+				D569E15A1BEAC06200455FB2 /* AppDelegate.swift */,
+				D569E15C1BEAC06200455FB2 /* ViewController.swift */,
+				D569E15E1BEAC06200455FB2 /* Main.storyboard */,
+				D569E1611BEAC06300455FB2 /* Assets.xcassets */,
+				D569E1631BEAC06300455FB2 /* LaunchScreen.storyboard */,
+				D569E1661BEAC06300455FB2 /* Info.plist */,
+				D57E2BF71C3F3508003A25EF /* Images.xcassets */,
+			);
+			path = "Skembo the Slime";
+			sourceTree = "<group>";
+		};
+		D569E16E1BEAC06300455FB2 /* Skembo the SlimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D569E16F1BEAC06300455FB2 /* Skembo_the_SlimeTests.swift */,
+				D569E1711BEAC06300455FB2 /* Info.plist */,
+			);
+			path = "Skembo the SlimeTests";
+			sourceTree = "<group>";
+		};
+		D569E1791BEAC06300455FB2 /* Skembo the SlimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D569E17A1BEAC06300455FB2 /* Skembo_the_SlimeUITests.swift */,
+				D569E17C1BEAC06300455FB2 /* Info.plist */,
+			);
+			path = "Skembo the SlimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D569E1561BEAC06200455FB2 /* Skembo the Slime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D569E17F1BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the Slime" */;
+			buildPhases = (
+				D569E1531BEAC06200455FB2 /* Sources */,
+				D569E1541BEAC06200455FB2 /* Frameworks */,
+				D569E1551BEAC06200455FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skembo the Slime";
+			productName = "Skembo the Slime";
+			productReference = D569E1571BEAC06200455FB2 /* Skembo the Slime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D569E16A1BEAC06300455FB2 /* Skembo the SlimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D569E1821BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the SlimeTests" */;
+			buildPhases = (
+				D569E1671BEAC06300455FB2 /* Sources */,
+				D569E1681BEAC06300455FB2 /* Frameworks */,
+				D569E1691BEAC06300455FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D569E16D1BEAC06300455FB2 /* PBXTargetDependency */,
+			);
+			name = "Skembo the SlimeTests";
+			productName = "Skembo the SlimeTests";
+			productReference = D569E16B1BEAC06300455FB2 /* Skembo the SlimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D569E1751BEAC06300455FB2 /* Skembo the SlimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D569E1851BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the SlimeUITests" */;
+			buildPhases = (
+				D569E1721BEAC06300455FB2 /* Sources */,
+				D569E1731BEAC06300455FB2 /* Frameworks */,
+				D569E1741BEAC06300455FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D569E1781BEAC06300455FB2 /* PBXTargetDependency */,
+			);
+			name = "Skembo the SlimeUITests";
+			productName = "Skembo the SlimeUITests";
+			productReference = D569E1761BEAC06300455FB2 /* Skembo the SlimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D569E14F1BEAC06200455FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Juho Rautio";
+				TargetAttributes = {
+					D569E1561BEAC06200455FB2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = B9P7WFTRHN;
+					};
+					D569E16A1BEAC06300455FB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D569E1561BEAC06200455FB2;
+					};
+					D569E1751BEAC06300455FB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D569E1561BEAC06200455FB2;
+					};
+				};
+			};
+			buildConfigurationList = D569E1521BEAC06200455FB2 /* Build configuration list for PBXProject "Skembo the Slime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D569E14E1BEAC06200455FB2;
+			productRefGroup = D569E1581BEAC06200455FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D569E1561BEAC06200455FB2 /* Skembo the Slime */,
+				D569E16A1BEAC06300455FB2 /* Skembo the SlimeTests */,
+				D569E1751BEAC06300455FB2 /* Skembo the SlimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D569E1551BEAC06200455FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57E2BEF1C3EF55B003A25EF /* game_music.mp3 in Resources */,
+				D57E2BF81C3F3508003A25EF /* Images.xcassets in Resources */,
+				D569E1651BEAC06300455FB2 /* LaunchScreen.storyboard in Resources */,
+				D57E2BF01C3EF55B003A25EF /* menu_music.mp3 in Resources */,
+				D56018131C3B2BDA001ACA20 /* land_sound.wav in Resources */,
+				D569E1621BEAC06300455FB2 /* Assets.xcassets in Resources */,
+				D56018121C3B2BDA001ACA20 /* jump_sound.wav in Resources */,
+				D569E1601BEAC06200455FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1691BEAC06300455FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1741BEAC06300455FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D569E1531BEAC06200455FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56018191C3C0E3D001ACA20 /* LevelSelectScene.swift in Sources */,
+				D5FBDFBE1C0BAB7A00BE9C9B /* LevelNode.swift in Sources */,
+				D569E15D1BEAC06200455FB2 /* ViewController.swift in Sources */,
+				D5250C0B1C0C69CB00D4E58F /* OptionsDialog.swift in Sources */,
+				D5E9411C1C034D0A00340C21 /* ObstacleFactory.swift in Sources */,
+				D560180B1C382C10001ACA20 /* MKOutlinedLabelNode.swift in Sources */,
+				D569E1891BEAC1E700455FB2 /* StartScene.swift in Sources */,
+				D5FBDFC21C0BC05800BE9C9B /* VectorHelper.swift in Sources */,
+				D562A7DD1C09E93500F6B2BA /* CollisionHelper.swift in Sources */,
+				D569E18B1BEAC5F900455FB2 /* GameScene.swift in Sources */,
+				D569E18D1BEBE8FE00455FB2 /* WorldNode.swift in Sources */,
+				D57E2BF61C3F0C46003A25EF /* AboutScene.swift in Sources */,
+				D56018171C3BFC2B001ACA20 /* UserDefaultsHelper.swift in Sources */,
+				D5AF861C1C0AF84D0055709F /* GameOverlay.swift in Sources */,
+				D557A25E1C1A294500B7535B /* ParallaxBackgroundNode.swift in Sources */,
+				D569E15B1BEAC06200455FB2 /* AppDelegate.swift in Sources */,
+				D562A7E01C09ED5400F6B2BA /* SlimeSpriteNode.swift in Sources */,
+				D5FBDFC01C0BABB300BE9C9B /* LevelFactory.swift in Sources */,
+				D57E2BF41C3F0307003A25EF /* MySpriteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1671BEAC06300455FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D569E1701BEAC06300455FB2 /* Skembo_the_SlimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569E1721BEAC06300455FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D569E17B1BEAC06300455FB2 /* Skembo_the_SlimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D569E16D1BEAC06300455FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D569E1561BEAC06200455FB2 /* Skembo the Slime */;
+			targetProxy = D569E16C1BEAC06300455FB2 /* PBXContainerItemProxy */;
+		};
+		D569E1781BEAC06300455FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D569E1561BEAC06200455FB2 /* Skembo the Slime */;
+			targetProxy = D569E1771BEAC06300455FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D569E15E1BEAC06200455FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D569E15F1BEAC06200455FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D569E1631BEAC06300455FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D569E1641BEAC06300455FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D569E17D1BEAC06300455FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D569E17E1BEAC06300455FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D569E1801BEAC06300455FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Skembo the Slime/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-Slime-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D569E1811BEAC06300455FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Skembo the Slime/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-Slime-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D569E1831BEAC06300455FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Skembo the SlimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-SlimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skembo the Slime.app/Skembo the Slime";
+			};
+			name = Debug;
+		};
+		D569E1841BEAC06300455FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Skembo the SlimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-SlimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skembo the Slime.app/Skembo the Slime";
+			};
+			name = Release;
+		};
+		D569E1861BEAC06300455FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Skembo the SlimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-SlimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Skembo the Slime";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D569E1871BEAC06300455FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Skembo the SlimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.tamk.Skembo-the-SlimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Skembo the Slime";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D569E1521BEAC06200455FB2 /* Build configuration list for PBXProject "Skembo the Slime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D569E17D1BEAC06300455FB2 /* Debug */,
+				D569E17E1BEAC06300455FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D569E17F1BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the Slime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D569E1801BEAC06300455FB2 /* Debug */,
+				D569E1811BEAC06300455FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D569E1821BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the SlimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D569E1831BEAC06300455FB2 /* Debug */,
+				D569E1841BEAC06300455FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D569E1851BEAC06300455FB2 /* Build configuration list for PBXNativeTarget "Skembo the SlimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D569E1861BEAC06300455FB2 /* Debug */,
+				D569E1871BEAC06300455FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D569E14F1BEAC06200455FB2 /* Project object */;
+}
